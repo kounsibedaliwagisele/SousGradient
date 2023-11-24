@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+#' calcul du sous-gradient d'une fonction à deux variables tout en minimisant celle-ci
+#'x_k <- x0 point courant
+#'t_k <- t0 pas courant
+#'k <- 0 nombre d'iterations
+#'return x_k
+#'@import pracman
+#'
+#'@importFrom("stats", "D", "approxfun")
+#'sousgrad est une fonction qui prend en arguments la fonction objective à minimiser, le domaine de recherche, le point de départ, et le pas initial. Elle renvoie le point final qui est une solution approximative du problème de minimisation
+#'@import sousgrad_plot

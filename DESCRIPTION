@@ -1,0 +1,15 @@
+Package: SousGradient
+Type: Package
+Title: la minimisation d'une fonction
+Version: 0.1.0
+Author: Kounsibe Daliwa Gisele
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: la fonction basée sur l'algorithme du sous gradient
+    permet de minimiser une fonction afin d'avoir à la sortie de la fonction une valeur minimale. 
+License: False
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
